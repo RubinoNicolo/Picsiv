@@ -49,7 +49,7 @@ public class Foto{
     }
     public int getNumeroAmici(){
         int cont = 0;
-        for(int i = 0;((i<tag.length) && (tag[i] != null); i++){
+        for(int i = 0;((i<tag.length) && (tag[i] != null)); i++){
         cont++ = 1;
         }
         return cont;
