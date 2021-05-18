@@ -45,12 +45,12 @@ public class Foto{
         return tag;   
     }
     public void setTag(Utenti[] tags){
-        this.tag=tags;
+        this.tag = tags;
     }
     public int getNumeroAmici(){
-        cont=0;
-        for(int i=0;((i<tag.length)&&(tag[i]!=null);i++){
-        cont++=1;
+        int cont = 0;
+        for(int i = 0;((i<tag.length) && (tag[i] != null); i++){
+        cont++ = 1;
         }
         return cont;
     }
