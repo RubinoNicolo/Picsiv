@@ -32,7 +32,6 @@ public class ListaAmici {
            Amici.add(tag[i]);
         }
     }
-     
     }
 
     
