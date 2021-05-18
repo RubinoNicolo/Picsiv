@@ -24,7 +24,10 @@ public class Utente {
         this.email=mail;
     }
     public Utente(Utente b){
-        
+        this.cognome=b.cognome;
+        this.nome=b.nme;
+        this.dataNascita=b.dataNascita;
+        this.email=b.email;
     }
     
     public void setCognome(String cog){
