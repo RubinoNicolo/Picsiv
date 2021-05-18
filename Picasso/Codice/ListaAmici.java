@@ -9,7 +9,7 @@ public class ListaAmici {
     private List<Utente> Amici;
     
     public ListaAmici(){
-        this.Amici= new ArrayList<>();
+        this.Amici = new ArrayList<>();
     }
     public void add(Utente a){
         Amici.add(a);
@@ -22,7 +22,7 @@ public class ListaAmici {
         int etaMedia=0;
         int lunghezzaArray=Amici.size();
         for (Utente amico : Amici){
-            etaTot+= amico.getEta(2021);
+            etaTot++ = amico.getEta(2021);
      }
         etaMedia=etaTot/lunghezzaArray;
         return etaMedia();
