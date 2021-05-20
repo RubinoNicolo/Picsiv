@@ -33,6 +33,9 @@ public class Foto{
     public void setPath(String path){
         this.path = path;
     }
+    public void setTag(Utenti[] tags){
+        this.tag = tags;
+    }
     public String getRisoluzione(){
         return risoluzione;
     }
@@ -44,9 +47,6 @@ public class Foto{
     }
     public Utente[] getTag () {
         return tag;   
-    }
-    public void setTag(Utenti[] tags){
-        this.tag = tags;
     }
     public int getNumeroAmici(){
         int cont = 0;
