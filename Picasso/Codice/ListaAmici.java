@@ -1,5 +1,5 @@
 
-//package instagram;
+package instagram;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,17 +18,17 @@ public class ListaAmici {
         Amici.remove(a);
     }
     public int etaMedia(){
-        int etaTot=0;
-        int etaMedia=0;
-        int lunghezzaArray=Amici.size();
+        int etaTot = 0;
+        int etaMedia = 0
+        int lunghezzaArray = Amici.size();
         for (Utente amico : Amici){
             etaTot = etaTot + amico.getEta(2021);
      }
-        etaMedia=etaTot/lunghezzaArray;
+        etaMedia = etaTot/lunghezzaArray;
         return etaMedia();
     }
     public void addFrom(Utente[] tag){
-        for(int i=0;i<tag.length;i++){
+        for(int i = 0; i < tag.length ; i++){
            Amici.add(tag[i]);
         }
     }
