@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Album {
     private List<Foto> album;
-    public ListaAmici(){
+    public Album(){
         this.album = new ArrayList<>();
     }
     public void addFoto(Foto a){
@@ -16,7 +16,8 @@ public class Album {
       album.get(num);
     }
     public void addTag(int num, Utenti[] tag){
-     Foto editata = new Foto(album[num]);
+     Foto editata;
+     editata = new Foto(album.get[num]);
      editata.setTag(tag);
-     album[num] = editata;
+     album.set(num,editata);
     }
