@@ -59,7 +59,7 @@ public class Foto{
     }
     public String toString() {
         String s = " Foto { risoluzione : "+ risoluzione + " , descrizione : " + descrizione +" , tags : ( ";
-        for(int i=0;i<tag.length;i++){
+        for(int i=0 ; i < tag.length; i++){
             if (i == tag.length-1)
                 s = s+tag[i].getNome()+" ) , ";
             else
