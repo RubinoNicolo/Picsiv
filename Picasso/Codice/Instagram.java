@@ -1,4 +1,4 @@
-//package instagram;
+package instagram;
 
 
 public class Instagram {
