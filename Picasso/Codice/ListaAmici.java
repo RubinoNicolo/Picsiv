@@ -22,7 +22,7 @@ public class ListaAmici {
         int etaMedia=0;
         int lunghezzaArray=Amici.size();
         for (Utente amico : Amici){
-            etaTot++ = amico.getEta(2021);
+            etaTot = etaTot + amico.getEta(2021);
      }
         etaMedia=etaTot/lunghezzaArray;
         return etaMedia();
