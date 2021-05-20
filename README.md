@@ -16,4 +16,5 @@ Prevedere di poter visualizzare:
 ● Elenco di persone che non appaiono in alcuna foto;
 ● Calcola il numero di apparizioni di un amico indicato
 nelle proprie foto
-● Calcola l'età media degli amici;
+● Calcola l'età media degli amici; UFF
+
