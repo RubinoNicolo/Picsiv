@@ -1,3 +1,4 @@
+package instagram;
 import java.lang.reflect.Array;
 
 public class Foto{
