@@ -49,7 +49,7 @@ public class Foto{
     }
     public int getNumeroAmici(){
         int cont = 0;
-        for(int i = 0;((i<tag.length) && (tag[i] != null)); i++){
+        for(int i = 0;((i < tag.length) && (tag[i] != null)); i++){
         cont = cont + 1;
         }
         return cont;
@@ -60,7 +60,7 @@ public class Foto{
     public String toString() {
         String s = " Foto { risoluzione : "+ risoluzione + " , descrizione : " + descrizione +" , tags : ( ";
         for(int i=0;i<tag.length;i++){
-            if (i==tag.length-1)
+            if (i == tag.length-1)
                 s = s+tag[i].getNome()+" ) , ";
             else
                 s = s+tag[i].getNome()+" , ";
