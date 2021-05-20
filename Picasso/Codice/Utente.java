@@ -25,7 +25,7 @@ public class Utente {
     }
     public Utente(Utente b){
         this.cognome=b.cognome;
-        this.nome=b.nme;
+        this.nome=b.nome;
         this.dataNascita=b.dataNascita;
         this.email=b.email;
     }
