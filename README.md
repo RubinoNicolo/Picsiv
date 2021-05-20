@@ -17,4 +17,3 @@ Prevedere di poter visualizzare:
 ● Calcola il numero di apparizioni di un amico indicato
 nelle proprie foto
 ● Calcola l'età media degli amici;
--Niggas in paris
